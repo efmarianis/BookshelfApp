@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookshelf Web App</title>
+
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- icons -->
+  </head>
+  <body>
+    <div class="container">
+      <div class="header section-margin">
+        <h1 class="title">My Bookshelf App</h1>
+      </div>
+
+      <div class="wrapper-addBook section-margin" id="wrapper">
+        <form action="" id="book-form">
+          <div class="add">
+            <h4 class="judul">Judul</h4>
+            <input type="text" id="judul-buku" class="add-book" />
+          </div>
+          <div class="add">
+            <h4 class="penulis">Penulis</h4>
+            <input type="text" id="penulis-buku" class="add-book" />
+          </div>
+          <div class="add">
+            <h4 class="tahun">Tahun</h4>
+            <input type="number" id="tahun-buku" class="add-book" />
+          </div>
+          <div class="add">
+            <button type="submit" value="submit" class="add-book btn">
+              Tambahkan Buku
+            </button>
+          </div>
+        </form>
+      </div>
+
+      <div class="wrapper-search section-margin">
+        <h2>Cari Buku</h2>
+        <div class="add search" id="search-book">
+          <h4 class="search-title">Judul</h4>
+          <input type="text" id="cari-judul-buku" class="search-input" />
+          <button class="add-book btn btn-search-list" id="btn-search">
+            Cari Buku
+          </button>
+        </div>
+      </div>
+
+      <div class="wrapper-showBook section-margin">
+        <h2>Rak Buku</h2>
+      </div>
+    </div>
+
+    <script src="./main.js"></script>
+  </body>
+</html>

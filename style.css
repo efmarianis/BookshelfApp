@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  width: 100%;
+  background: linear-gradient(to bottom, #f694ff 0%, #8e49e8 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.section-margin {
+  margin-top: 3.5em;
+}
+
+.header h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.container {
+  width: 50%;
+}
+
+.add {
+  margin-top: 1.3em;
+}
+
+.add h4 {
+  color: #fff;
+}
+
+input {
+  width: 100%;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+}
+
+input[type="submit"] {
+  background-color: #8e49e8;
+  padding: 0.8em;
+  cursor: pointer;
+  font-weight: 700;
+  color: #fff;
+}
+
+.list-grup {
+  height: 7em;
+  line-height: 2em;
+  position: relative;
+  background: #f2f2f2;
+  padding: 0.5em 0 0 1em;
+  margin-bottom: 0.8rem;
+  border-radius: 5px 0 0 5px;
+}
+
+li {
+  list-style: none;
+}
+
+h2 {
+  color: #fff;
+}
+
+.wrapper-showBook h2 {
+  margin-bottom: 1em;
+}
+
+.btn {
+  width: 100%;
+  background: #8e49e8;
+  border: none;
+  padding: 0.7em;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  opacity: 0.7;
+}
+
+span {
+  position: absolute;
+  right: 0;
+  bottom: 0.7em;
+  width: 4em;
+  height: 2em;
+  color: #fff;
+  background: red;
+  border-radius: 0.2em;
+  text-align: center;
+  cursor: pointer;
+  margin: 0.5em 1em;
+}
+
+span.btn-selesai {
+  bottom: 3.2em;
+  background: green;
+}
+
+.btn-search-list {
+  margin-top: 1.3em;
+  background: #7b37d3;
+}
+
+.error {
+  display: relative;
+  top: 10em;
+  left: 14em;
+  background: red;
+  text-align: start;
+  padding: 0.5em 0.8em;
+  font-size: 0.7em;
+  font-weight: 700;
+}
+
+.success {
+  display: relative;
+  top: 10em;
+  left: 13.5em;
+  background: green;
+  text-align: start;
+  padding: 0.5em 0.8em;
+  font-size: 0.7em;
+  font-weight: 700;
+}
