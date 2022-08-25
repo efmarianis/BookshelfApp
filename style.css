@@ -88,6 +88,11 @@ h2 {
   opacity: 0.7;
 }
 
+.selesaiBaca {
+  background-color: #690edf;
+  color: #fff;
+}
+
 span {
   position: absolute;
   right: 0;
@@ -114,8 +119,8 @@ span.btn-selesai {
 
 .error {
   display: relative;
-  top: 10em;
-  left: 14em;
+  top: 15vh;
+  left: 24.2vw;
   background: red;
   text-align: start;
   padding: 0.5em 0.8em;
@@ -125,11 +130,27 @@ span.btn-selesai {
 
 .success {
   display: relative;
-  top: 10em;
-  left: 13.5em;
+  top: 15vh;
+  left: 24.2vw;
   background: green;
   text-align: start;
   padding: 0.5em 0.8em;
   font-size: 0.7em;
   font-weight: 700;
+}
+
+@media screen and (max-width: 920px) {
+  .error,
+  .success {
+    top: 12vh;
+    left: 23.3vw;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .error,
+  .success {
+    top: 28vh;
+    left: 22vw;
+  }
 }
